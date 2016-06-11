@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My suite" parallel="tests" >
+
+<listeners>
+	<listener class-name="com.selenium.testng.datadriven.CustomListener" />
+</listeners>
+
+  <suite-files>
+   <suite-file path="./PortFoiloSuite.xml" />
+   <suite-file path="./StockSuite.xml" />
+   <!--suite-file path="./Suite_C.xml" /-->
+   
+  </suite-files>
+</suite>

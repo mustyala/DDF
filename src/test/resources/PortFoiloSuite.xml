@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortFoilo Suite">
+
+<test name="Login Test">
+    <classes>
+        <class name="com.selenium.testng.datadriven.PortFoiloSuite.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Least Per Asset">
+    <classes>
+        <class name="com.selenium.testng.datadriven.PortFoiloSuite.LeastPerAsset" ></class>  
+    </classes>
+</test>
+</suite>
+

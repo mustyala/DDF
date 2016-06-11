@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Stock Suite">
+
+<test name="Add Stock Test">
+    <classes>
+        <class name="com.selenium.testng.datadriven.StockSuite.AddStockTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+
